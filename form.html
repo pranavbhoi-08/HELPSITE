@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <form action="pranav17.html" method="post">
+            Name:<br>
+            <input type="text" name="name" required><br>
+            Email:<br>
+            <input type="email" name="email" required><br>
+            Date of Birth:<br>
+            <input type="date" name="dob" required><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="Male" required> Male<br>
+            <input type="radio" name="gender" value="Female" required> Female<br>
+            
+            Courses Available:<br>
+
+<select name="course_selection" id="courses">
+    <option value="" disabled selected>-- Select a Course --</option>
+    <option value="Computer">Computer</option>
+    <option value="ECE">ECE</option>
+    <option value="Mechanical">Mechanical</option>
+    <option value="Chemical">Chemical</option>
+    <option value="Robotics">Robotics</option>
+    <option value="AI_ML">AI & ML</option>
+</select><br>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </body>
+
+
+</html>
